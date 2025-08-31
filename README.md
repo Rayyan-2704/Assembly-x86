@@ -1,2 +1,2 @@
 # Assembly Language x86 (COAL)
-COAL Lab Tasks
+- This repository will include all the COAL (Computer Organization & Assembly Language) lab tasks and assignments.
