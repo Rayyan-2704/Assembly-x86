@@ -8,7 +8,7 @@ INCLUDE Irvine32.inc
 
 .code
 main PROC
-	; assigning random value to ebx
+	; assigning random value to register ebx
 	mov ebx, 20
 
 	mov ecx, 101011010110b
