@@ -8,6 +8,9 @@ INCLUDE Irvine32.inc
 
 .code
 main PROC
+	; assigning random value to eax
+	mov eax, 10
+
 	mov ebx, 6F1h
 	sub ebx, eax
 	add ebx, 92
@@ -15,8 +18,7 @@ main PROC
 	sub ebx, 11011001b
 	add ebx, 6Ch
 
-	; moving the value of ebx into eax to print it
-	mov eax, ebx
+	mov eax, ebx  ; moving the value of ebx into eax to print it
 	call WriteInt
 
 	exit
