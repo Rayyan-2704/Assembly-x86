@@ -8,6 +8,11 @@ INCLUDE Irvine32.inc
 
 .code
 main PROC
+	; assigning random values to registers eax, ebx and ecx
+	mov eax, 10
+	mov ebx, 20
+	mov ecx, 50
+	
 	mov edx, eax
 	add edx, 3
 	add edx, ebx
@@ -16,8 +21,7 @@ main PROC
 	sub edx, 45o
 	add edx, 89
 
-	; moving the value of edx into eax to print it
-	mov eax, edx
+	mov eax, edx  ; moving the value of edx into eax to print it
 	call WriteInt
 
 	exit
