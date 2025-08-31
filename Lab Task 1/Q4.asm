@@ -6,6 +6,9 @@ COMMENT !
 
 INCLUDE Irvine32.inc
 
+.data
+	answer DWORD ?
+
 .code
 main PROC
 	mov eax, 11010110b
@@ -16,6 +19,8 @@ main PROC
 	sub eax, 0Dh
 	add eax, 12
 
+	mov answer, eax  ; storing the final answer into the 'answer' variable
+	mov eax, answer  ; loading the value back to eax register to print it
 	call WriteInt
 
 	exit
