@@ -6,8 +6,8 @@ COMMENT !
 INCLUDE Irvine32.inc
 
 .data
-	myBYTE    BYTE   10 ,20, 30
-	array1    WORD   30 DUP(?), 0, 0
+	myBYTE    BYTE   10,20,30
+	array1    WORD   30 DUP(?),0,0
 	array2    WORD   5 DUP(3 DUP(?))
 	array3    DWORD  1,2,3,4
 	myMessage BYTE   "12345678",0
