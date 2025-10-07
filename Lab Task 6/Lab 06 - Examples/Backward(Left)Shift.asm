@@ -43,7 +43,7 @@ main PROC
     loop rotate_loop
 
     mov esi, OFFSET array + (s - 1) * TYPE array
-    mov [esi], ebx             ; place last element at the front
+    mov [esi], ebx             ; place first element at the back
 
     ; ----- Display Rotated Array -----
     call CRLF
