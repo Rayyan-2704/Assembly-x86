@@ -41,8 +41,8 @@ main PROC
         mov eax, [edi]
         xchg [esi], eax
         mov [edi], eax
-           add esi, TYPE array
-           sub edi, TYPE array
+        add esi, TYPE array
+        sub edi, TYPE array
     loop reverse_array
 
     ; ----- Display Reversed Array -----
