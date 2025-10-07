@@ -31,7 +31,7 @@ main PROC
         add esi, TYPE array
     loop display_before
 
-    ; ----- Rotate Array Forward -----
+    ; ----- Reverse Array -----
     mov ecx, s
     shr ecx, 1
     mov esi, OFFSET array
