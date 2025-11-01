@@ -4,13 +4,13 @@
 INCLUDE Irvine32.inc
 
 .data
-	num1 DWORD ?
-	num2 DWORD ?
-	num3 DWORD ?
-	num4 DWORD ?
+	num1 SDWORD ?
+	num2 SDWORD ?
+	num3 SDWORD ?
+	num4 SDWORD ?
 	colon BYTE ": ",0
 	prompt BYTE "Enter the value of number ",0
-	result DWORD ?
+	result SDWORD ?
 	msg BYTE "Final Result: ",0
 
 .code
