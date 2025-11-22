@@ -5,8 +5,8 @@ COMMENT !
 INCLUDE Irvine32.inc
 
 .data
-	string1 BYTE "this is first string" ,0
-	string2 BYTE "this is second string",0
+	string1 BYTE "Hello, my name is Rayyan Aamir" ,0
+	string2 BYTE "Pearls by Sade",0
 
 .code
 main PROC
