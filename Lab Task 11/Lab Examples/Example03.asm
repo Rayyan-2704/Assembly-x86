@@ -10,9 +10,9 @@ INCLUDE Irvine32.inc
 
 .code
 main PROC
-	mov edi,OFFSET s1
-	mov al,'R'
-	mov ecx,LENGTHOF s1
+	mov edi, OFFSET s1
+	mov al, 'R'
+	mov ecx, LENGTHOF s1
 	cld
 	repne scasb
 	jnz quit
