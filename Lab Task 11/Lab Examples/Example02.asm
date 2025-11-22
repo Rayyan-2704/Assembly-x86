@@ -7,8 +7,8 @@ INCLUDE Irvine32.inc
 .data
 	greater BYTE "source > target",0
 	lessOrEqual BYTE "source <= target",0
-	source BYTE "abcd",0
-	target BYTE "abc",0
+	source BYTE "Rayyan Aamir",0
+	target BYTE "Arhum",0
 
 .code
 main PROC
@@ -22,7 +22,7 @@ main PROC
 
 L1:
 	mov edx, OFFSET greater
-	call writestring
+	call WriteString
 
 endd:
 	exit
