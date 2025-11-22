@@ -1,4 +1,7 @@
 ; Rayyan Aamir | 24K-0687 | BCS-3F
+COMMENT !
+	Copying a String
+!
 INCLUDE Irvine32.inc
 
 .data
