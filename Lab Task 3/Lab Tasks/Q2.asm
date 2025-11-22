@@ -12,7 +12,6 @@ INCLUDE Irvine32.inc
 main PROC
 	mov edx, OFFSET message
 	call WriteString
-
 	exit
 main ENDP
 END main
