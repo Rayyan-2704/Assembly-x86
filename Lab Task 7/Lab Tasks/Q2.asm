@@ -42,7 +42,7 @@ unsignedcheck_with_3rdvalue:
 print_unsigned_largest:
     mov edx, OFFSET msg1
     call WriteString
-    call WriteHexw
+    call WriteHex
     call CRLF
 
     mov eax, num1
