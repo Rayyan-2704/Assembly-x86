@@ -26,7 +26,7 @@ copy_rest_char:
     mov al, [esi]
     mov [edi], al
     cmp al, 0
-    je Done
+    je return
     inc esi
     inc edi
     jmp copy_rest_char
@@ -34,7 +34,7 @@ copy_rest_char:
 string_end:
     mov BYTE PTR [edi], 0
 
-Done:
+return:
     ret
 STR_TRIMM ENDP
 
